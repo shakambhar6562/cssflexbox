@@ -1,0 +1,45 @@
+#container1 {
+    border: 1px solid black;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    
+}
+#flex-box-container-1
+{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+#flex-box-container-1 div
+{
+    display: flex;   
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+
+}
+
+#container2 {
+    border: 1px solid black;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+#flex-box-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap:wrap;
+
+}
+#flex-box-container-2-sub img {
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.7);
+    
+}
